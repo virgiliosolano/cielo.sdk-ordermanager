@@ -36,17 +36,34 @@ dependencies {
    compile 'org.jetbrains.kotlin:kotlinstdlib:1.0.4'
 }
 ```
+
 ## Inclusão das dependências
 
+Faça um clone do SDK através do Github:
+
+```
+git clone git@github.com:DeveloperCielo/cielo.sdk-ordermanager.git
+```
+
+Ou o download do .ZIP acessando o [repositório](https://github.com/DeveloperCielo/cielo.sdk-ordermanager) e clicando em *Clone or download*:
+
+![Download](images/lio-07.png)
+
 ### Abra as configurações do módulo da aplicação
+
+Após fazer o download, abra o Android Studio e, então, as configurações do módulo na sua aplicação.
 
 ![Module Settings](images/lio-01.png)
 
 ### Adicione um novo módulo
 
+Na nova janela, adicione um novo módulo.
+
 ![New Module](images/lio-02.png)
 
 ### Importe o SDK do Order Management
+
+Na nova tela, selecione *Import .JAR/.AAR Package* para importar o SDK.
 
 ![Import .aar package](images/lio-03.png)
 
